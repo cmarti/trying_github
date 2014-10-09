@@ -76,4 +76,3 @@ if __name__ == '__main__':
     mass_spectra = [int(x) for x in open(sys.argv[1]).next().strip().split()]
     print ' '.join(list(sequence_cyclopeptide(mass_spectra)))
 	    
-    
